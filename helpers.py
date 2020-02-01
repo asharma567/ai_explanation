@@ -38,7 +38,7 @@ def _plot_barchart_with_error_bars_rf(importance_weights, errors, feature_names)
 
     number_of_features = range(len(importance_weights_reversed))
 
-    plt.figure(figsize=(12,10))
+    # plt.figure(figsize=(12,10))
     plt.title("Feature importances")
     plt.barh(
         number_of_features, 
